@@ -1,0 +1,78 @@
+/*inicio navbar*/
+
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    nav{
+        z-index: 1;
+        color: #fff;
+        background-color:grey;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        
+        div{
+            width: 600px;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        div{
+            
+            margin-top: -10px;
+            margin-right: 10px;
+            .logoSize{
+                width: 80px;
+                height: 60px;
+            }
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            
+            li{
+                margin-right: 10px;
+                font-size: 20px;
+                font-family: Georgia;
+                
+                .Link{
+                    color: white;
+                    text-decoration: none;
+                    letter-spacing: 1px;
+                    font-size: 20px;
+                    &:hover{
+                        background-color:grey;
+                        color: hotpink;
+                        text-decoration: underline;
+                        font-weight: bold;
+                        letter-spacing: 1px;
+                    }
+                }
+
+            }
+        }
+        .menu-position{
+            display: flex;
+            .Social{
+                display: flex;
+                justify-content: space-around;
+                .socialSize{
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+
+/*fin navbar*/

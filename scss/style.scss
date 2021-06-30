@@ -1,0 +1,24 @@
+$primary-color: black;
+$secondary-color: white;
+$font-color: white;
+
+$box-shadow: 0 2px 10px 0 rgba(0,0,0,0.6);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $primary-color;
+}
+
+
+@import "../scss/components/header";
+@import "../scss/components/section1";
+@import "../scss/components/sección2";
+@import "../scss/components/section3";
+@import "../scss/components/footer";
+@import "../scss/components/fechas";
+@import "../scss/components/galeria";
